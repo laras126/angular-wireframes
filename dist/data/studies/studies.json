@@ -1,0 +1,20 @@
+[
+	{
+		"id": "ross-institute",
+		"client": "Ross Institute",
+		"type": "Archival",
+		"tagline": "Top quality scans en masse, under budget."
+	},
+	{
+		"id": "lac-group",
+		"client": "LAC Group",
+		"type": "Archival",
+		"tagline": "Quality scans, meticulous organization, customized finish process."
+	},
+	{
+		"id": "michael-reed",
+		"client": "Michael Reed",
+		"type": "Consumer",
+		"tagline": "Brilliant slides need brilliant scans."
+	}
+]
