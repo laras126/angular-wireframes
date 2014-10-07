@@ -23,8 +23,12 @@
 }
 
 .content-block--footer {
-	background-color: $dark-accent;
+	background-color: $med-accent;
 	color: $white;
+	
+	a {
+		color: $white;
+	}
 	@extend %block;
 }
 

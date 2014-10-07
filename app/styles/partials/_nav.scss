@@ -2,6 +2,11 @@
 	padding: 0;
 }
 
+.nav li {
+	text-align: center;
+	padding-bottom: $base;
+}
+
 .nav-toggle-btn, .nav-mobile {
 	@media (min-width: $screen-sm) {	
 		display: none;
@@ -10,8 +15,6 @@
 
 .nav-mobile li {
 	list-style-type: none;
-	padding-bottom: $base;
-	text-align: center;
 }
 
 .nav-desktop {

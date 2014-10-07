@@ -6,6 +6,8 @@ There are very, very few styles - the layout is based on [Brad Frost's HTML wire
 
 Good stuff! The repo is currently set up for one of my projects, the redoing of [dijifi.com](http://dijifi.com), hopefully the structure will be similar to something you are working on.
 
+The wireframes for that project are [here, on Heroku](http://dijifi-wireframes.herokuapp.com/).
+
 ### What's here?
 
 The project was started with the [Yoeman Angular App generator](http://yeoman.io/codelab.html), so all technologies are what's included with that - Grunt, Bower, Sass, et al.
@@ -22,5 +24,7 @@ No guarantee this will work out of the box, and these are probably vague instruc
 4. Adjust the naming of the views and controllers to your liking
 5. Add your own JSON test data
 6. Adjust the templates to correlate with that data
+
+Note that in order to deploy on Heroku, you need to track the dist/ directory - not ideal, but based on my Google findings, that's the case.
 
 ### Enjoy!

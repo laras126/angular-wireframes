@@ -25,7 +25,7 @@ angular
         controller: 'AboutCtrl'
       })
       .when('/contact', {
-        templateUrl: 'views/static.html',
+        templateUrl: 'views/contact.html',
         controller: 'MainCtrl'
       })
       .when('/case-studies', {
