@@ -1,0 +1,12 @@
+{
+	"id": "ross-institute",
+	"client": "Ross Institute",
+	"type": "Archival",
+	"tagline": "Top quality scans en masse, under budget.",
+	"service": "35mm Negative Strips to uncorrected JPG or TIFF files.",
+	"need": "Tens of thousands of images belonging to important archive at risk of loss to aging or disaster, plus a growing need to access and share the archive digitally.",
+	"details": [
+		"The Ross Institute first approached DiJiFi in 2009 with an archive of 35mm negatives stored in acid-free sleeves in dozens of binders. The archive totals more than 100,000 images, and they were looking for the best possible quality but within their budget. Over the course of three years the archive was split into large batches of about 20,000 frames to spread the cost and to allow time to develop and understand the digital management system once the files were delivered back to the institute.",
+		"They chose our ‘Raw’ service to meet the budget, but also to allow them to only spend resources on images when needed. Instead of paying someone to rotate, crop out borders, and adjust color/contrast to make the image presentable, they could perform this service in-house on an as-needed basis.",
+		"Each frame was scanned to JPG (or sometimes TIFF) files with our default Photoshop Level 10 compression, which is near lossless, and organized in folders according to roll. Folders were named based on their written labels, and when each batch was completed the files were offloaded to their hard drive for transport to their in-house servers. As is our standard procedure, the files were kept backed up on our server for 30 days to give them time to ensure their backup was secure and the files satisfactory."]
+}
