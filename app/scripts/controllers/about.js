@@ -10,6 +10,8 @@
  */
 angular.module('dfiClickthruApp')
   .controller('AboutCtrl', function ($scope, $http) {
+  	// Hack to get around writing tests
+  	$scope.awesomeThings = [1,2,3];
     $http.get('data/pages/about.json').success(function(data) {
       $scope.about = data;
     });

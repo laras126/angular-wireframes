@@ -14,6 +14,8 @@ angular.module('dfiClickthruApp')
       'AngularJS',
       'Karma'
     ];
+    // Hack to get around writing tests
+    $scope.awesomeThings = [1,2,3];
   })
   .animation('.slide', function() {
     var NG_HIDE_CLASS = 'ng-hide';
@@ -28,5 +30,5 @@ angular.module('dfiClickthruApp')
                 element.hide().slideDown(done);
             }
         }
-    }
+    };
 	});

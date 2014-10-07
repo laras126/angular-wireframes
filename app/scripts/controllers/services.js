@@ -7,15 +7,6 @@
  * # AboutCtrl
  * Controller of the dfiClickthruApp
  */
-// angular.module('dfiClickthruApp')
-//   .controller('ServiceCtrl', function ($scope, $http) {
-// 		$http.get('data/services/photo-scanning.json').success(function(data) {
-// 			$scope.scanning = data;
-// 		});
-// 		$http.get('data/services/film-transfer.json').success(function(data) {
-//       $scope.film = data;
-//     });
-//   });
 
 var serviceControllers = angular.module('serviceControllers', []);
 
