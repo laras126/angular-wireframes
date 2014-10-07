@@ -1,8 +1,27 @@
 .nav {
+	padding: 0;
+}
+
+.nav-toggle-btn, .nav-mobile {
+	@media (min-width: $screen-sm) {	
+		display: none;
+	}
+}
+
+.nav-mobile li {
+	list-style-type: none;
+	padding-bottom: $base;
+	text-align: center;
+}
+
+.nav-desktop {
+	display: none;
+	@media (min-width: $screen-sm) {
+		display: block;	
+	}	
+
 	li {
 		display: inline-block;
 		padding-right: $base;
 	}
-
-	list-style-type: none;
 }

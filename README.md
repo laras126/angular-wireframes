@@ -6,7 +6,11 @@ There are very, very few styles - the layout is based on [Brad Frost's HTML wire
 
 Good stuff! The repo is currently set up for one of my projects, the redoing of [dijifi.com](http://dijifi.com), hopefully the structure will be similar to something you are working on.
 
+### What's here?
+
 The project was started with the [Yoeman Angular App generator](http://yeoman.io/codelab.html), so all technologies are what's included with that - Grunt, Bower, Sass, et al.
+
+It also includes the Bootstrap grid for easy layout work (but don't do any layout until later! Mobile first, baby!).
 
 ### How to use it
 

@@ -1,5 +1,18 @@
-<ul class="nav">
-  <li class="active"><a ng-href="#">Home</a></li>
+<button class="btn nav-toggle-btn" ng-click="expand = !expand">Menu</button>
+<ul class="nav nav-mobile slide" ng-show="expand">
+  <li><a ng-click="expand = !expand" ng-href="#">Home</a></li>
+  <li><a ng-click="expand = !expand" ng-href="#/photo-scanning">Photo Scanning</a></li>
+  <li><a ng-click="expand = !expand" ng-href="#/film-transfer">Film Transfer</a></li>
+  <li><a ng-click="expand = !expand" ng-href="#/audio-transfer">Audio Transfer</a></li>
+  <li><a ng-click="expand = !expand" ng-href="#/video-transfer">Video Transfer</a></li>
+  <li><a ng-click="expand = !expand" ng-href="#/about">About</a></li>
+  <li><a ng-click="expand = !expand" ng-href="#/contact">Contact</a></li>
+  <li><a ng-click="expand = !expand" ng-href="#/case-studies">Case Studies</a></li>
+</ul>
+
+<!-- Note that it's super bad to have two menus here, but I didn't feel like figuring out the media query stuff at the time -->
+<ul class="nav nav-desktop">
+  <li><a ng-href="#">Home</a></li>
   <li><a ng-href="#/photo-scanning">Photo Scanning</a></li>
   <li><a ng-href="#/film-transfer">Film Transfer</a></li>
   <li><a ng-href="#/audio-transfer">Audio Transfer</a></li>
