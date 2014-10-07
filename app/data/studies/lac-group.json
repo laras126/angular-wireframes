@@ -1,0 +1,12 @@
+{
+	"id": "lac-group",
+	"client": "LAC Group",
+	"type": "Archival",
+	"tagline": "Quality scans, meticulous organization, customized finish process.",
+	"service": "Various Still Image Formats to JPG (with metadata entry provided by partner).",
+	"need": "Hundreds of thousands of images belonging to a large national media company need to be scanned with specific pixel resolution and to different versions at the highest quality, for preservation and publishing. To add value, images must be tagged with exact metadata to match the date, events and subjects in each image, and then delivered to multiple end users via drive delivery and FTP.",
+	"details": [
+		"LAC Group specializes in managing digital assets, but needed a partner for a very special, large archive from a major media company in Manhattan. They needed to scan approximately 5,000 images a month from various formats, and DiJiFi would provide the pickup and delivery of images and the scanning service.",
+		"They chose our ‘Raw’ service to meet the budget, but also to allow them to only spend resources on images when needed. Instead of paying someone to rotate, crop out borders, and adjust color/contrast to make the image presentable, they could perform this service in-house on an as-needed basis.",
+		"The images had to have metadata entered in each file before being returned to the client, and in order to do so efficiently a space was provided in DiJiFi’s studio for an outside technician to enter data directly after scans have been processed. When small problems arise (as they always will), this type of workflow greatly increases efficiency by eliminating the slow process of remote communication between people in physically separate spaces."]
+}

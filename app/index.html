@@ -21,22 +21,11 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="container">
-      <div class="header">
-        <ul class="nav">
-          <li class="active"><a ng-href="#">Home</a></li>
-          <li><a ng-href="#/photo-scanning">Photo Scanning</a></li>
-          <li><a ng-href="#/about">About</a></li>
-          <li><a ng-href="#/contact">Contact</a></li>
-          <li><a ng-href="#/case-studies">Case Studies</a></li>
-        </ul>
-        <h3>DiJiFi</h3>
-      </div>
+    <header class="content-block--header" ng-include src="'views/partials/header.html'"></header>
 
-      <div ng-view></div>
-      <!-- <div ng-view="footer"></div> -->
-
-    </div>
+    <div ng-view></div>
+    
+    <footer class="content-block--footer" ng-include src="'views/partials/footer.html'"></footer>
 
     <!-- build:js(.) scripts/oldieshim.js -->
     <!--[if lt IE 9]>
@@ -55,7 +44,7 @@
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/controllers/service.js"></script>
+        <script src="scripts/controllers/services.js"></script>
         <script src="scripts/controllers/studies.js"></script>
         <script src="scripts/controllers/about.js"></script>
         <!-- endbuild -->

@@ -1,0 +1,11 @@
+{
+	"id": "about",
+	"title": "About",
+	"tagline": "Tagline",
+	"summary": "3-4 sentence summary",
+	"details": [
+		"History",
+		"Mission/values",
+		"Future plans",
+		"How we are different"]
+}

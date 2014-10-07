@@ -1,0 +1,15 @@
+{
+	"id": "video-transfer",
+	"name": "Video Transfer",
+	"tagline": "Tagline, short and sweet",
+	"formats": [
+			"Format 1", 
+			"Format 2",
+			"Format 3",
+			"Format 4"
+		],
+	"result": "Result of transfer, salesy tone, emphasize quality",
+	"options": "Customization options, what makes DiJiFi unique, personal touch",
+	"process": "summary of the process, links to detail page",
+	"quote": "form for quick quote/recommended packages, links to pre-filled out order form"
+}

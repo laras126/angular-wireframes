@@ -1,0 +1,46 @@
+.note {
+	color: $med-accent;
+	font-style: italic;
+}
+
+.content-block {
+	background-color: $light-accent;
+	@extend %block;	
+	&:nth-child(2n) {
+		background-color: lighten($light-accent, 6%);
+	}
+
+	&--list {
+		list-style-type: none;
+		padding: 0;
+	}
+
+}
+
+.list--formats {
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.content-block--footer {
+	background-color: $dark-accent;
+	color: $white;
+	@extend %block;
+}
+
+.content-block--header {
+	background-color: $white;
+	@extend %block;
+	text-align: center;
+}
+
+li {
+	text-align: left;
+}
+
+// Extends
+
+%block {
+	padding: $h4 $h3;
+	text-align: center;
+}

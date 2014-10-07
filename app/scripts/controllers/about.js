@@ -6,12 +6,14 @@
  * @description
  * # AboutCtrl
  * Controller of the dfiClickthruApp
+ * Gets About page data and lists case studies
  */
 angular.module('dfiClickthruApp')
-  .controller('AboutCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('AboutCtrl', function ($scope, $http) {
+    $http.get('data/pages/about.json').success(function(data) {
+      $scope.about = data;
+    });
+    $http.get('data/studies/studies.json').success(function(data) {
+      $scope.studies = data;
+    });
   });

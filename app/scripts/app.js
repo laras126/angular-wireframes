@@ -11,7 +11,8 @@
 angular
   .module('dfiClickthruApp', [
     'ngRoute',
-    'studyControllers'
+    'studyControllers',
+    'serviceControllers'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -20,7 +21,7 @@ angular
         controller: 'MainCtrl'
       })
       .when('/about', {
-        templateUrl: 'views/static.html',
+        templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
       .when('/contact', {
@@ -35,7 +36,11 @@ angular
         templateUrl: 'views/study-detail.html',
         controller: 'StudyDetailCtrl'
       })
-      .when('/photo-scanning', {
+      .when('/:serviceId', {
+        templateUrl: 'views/service.html',
+        controller: 'ServiceCtrl'
+      })
+      .when('/film-transfer', {
         templateUrl: 'views/service.html',
         controller: 'ServiceCtrl'
       })
