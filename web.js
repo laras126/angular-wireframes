@@ -1,8 +1,18 @@
-var port = process.env.PORT || 3000;
+var express = require('express');
 
-function main(argv) {
-  new HttpServer({
-    'GET': createServlet(StaticServlet),
-    'HEAD': createServlet(StaticServlet)
-  }).start(port);
-}
+var path = require('path');
+
+var app = express();
+
+app.configure(function(){
+  'use strict';
+  app.use(express.bodyParser());
+  app.use(express.static(path.join(__dirname, 'dist')));
+});
+
+var port = process.env.PORT || 5000;
+
+app.listen(port, function() {
+    'use strict';
+    console.log('server started '+port);
+});
