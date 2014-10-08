@@ -20,13 +20,25 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
-      })
       .when('/contact', {
         templateUrl: 'views/contact.html',
         controller: 'MainCtrl'
+      })
+      .when('/faq', {
+        templateUrl: 'views/faq.html',
+        controller: 'MainCtrl'
+      })
+      .when('/privacy-policy', {
+        templateUrl: 'views/privacy-policy.html',
+        controller: 'MainCtrl'
+      })
+      .when('/location', {
+        templateUrl: 'views/location.html',
+        controller: 'MainCtrl'
+      })
+      .when('/about', {
+        templateUrl: 'views/about.html',
+        controller: 'AboutCtrl'
       })
       .when('/case-studies', {
         templateUrl: 'views/studies.html',
@@ -37,10 +49,6 @@ angular
         controller: 'StudyDetailCtrl'
       })
       .when('/:serviceId', {
-        templateUrl: 'views/service.html',
-        controller: 'ServiceCtrl'
-      })
-      .when('/film-transfer', {
         templateUrl: 'views/service.html',
         controller: 'ServiceCtrl'
       })
